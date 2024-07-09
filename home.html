@@ -6,6 +6,11 @@
     <title>Ecommerce Web</title>
 
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+    <!-- CDN Swiper -->
+    <link
+    rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
 </head>
 <body>
     
@@ -82,8 +87,64 @@
             </div>
         </section>
 
-        <section class="categores">
-            
+        <section class="categores container section">
+            <h3 class="section__title"><span>Popular</span>Categories</h3>
+            <div class="categories__container swiper">
+                <div class="swiper-wrapper">
+                    <a href="shop.html" class="categories__item swiper-slide">
+                        <img src="IMG/category-1.jpg" alt="" class="categories__img">
+                        <h3 class="category__title">T-Shirt</h3>
+                    </a>
+
+                    <a href="shop.html" class="categories__item swiper-slide">
+                        <img src="IMG/category-2.jpg" alt="" class="categories__img">
+                        <h3 class="category__title">Bags</h3>
+                    </a>
+
+                    <a href="shop.html" class="categories__item swiper-slide">
+                        <img src="IMG/category-3.jpg" alt="" class="categories__img">
+                        <h3 class="category__title">Sandal</h3>
+                    </a>
+
+                    <a href="shop.html" class="categories__item swiper-slide">
+                        <img src="IMG/category-4.jpg" alt="" class="categories__img">
+                        <h3 class="category__title">Scarf Cap</h3>
+                    </a>
+
+                    <a href="shop.html" class="categories__item swiper-slide">
+                        <img src="IMG/category-5.jpg" alt="" class="categories__img">
+                        <h3 class="category__title">Shoe</h3>
+                    </a>
+
+                    <a href="shop.html" class="categories__item swiper-slide">
+                        <img src="IMG/category-6.jpg" alt="" class="categories__img">
+                        <h3 class="category__title">Pillowcase</h3>
+                    </a>
+
+                    <a href="shop.html" class="categories__item swiper-slide">
+                        <img src="IMG/category-7.jpg" alt="" class="categories__img">
+                        <h3 class="category__title">Jumpsuit</h3>
+                    </a>
+
+                    <a href="shop.html" class="categories__item swiper-slide">
+                        <img src="IMG/category-8.jpg" alt="" class="categories__img">
+                        <h3 class="category__title">Hats</h3>
+                    </a>
+                </div>
+
+                
+            </div>
+            <div class="swiper-button-next" id="swiper-button-next1"><i class="fa-solid fa-angle-right"></i></div>
+            <div class="swiper-button-prev" id="swiper-button-prev2"><i class="fa-solid fa-angle-left"></i></div>
         </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JS/main.js"></script>
 </body>
 </html>
